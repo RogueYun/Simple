@@ -3,16 +3,16 @@ reaction_other
 [OBJECT:REACTION]
 
 [REACTION:TAN_A_HIDE]
-   [NAME:tan a hide]
-   [BUILDING:TANNER:CUSTOM_T]
-   [REAGENT:A:600:GLOB:NONE:NONE:NONE][UNROTTEN]
-      [HAS_MATERIAL_REACTION_PRODUCT:TAN_MAT]
+	[NAME:tan a hide]
+	[BUILDING:TANNER:CUSTOM_T]
+	[REAGENT:A:600:GLOB:NONE:NONE:NONE][UNROTTEN]
+		[HAS_MATERIAL_REACTION_PRODUCT:TAN_MAT]
 
-   In the product, if you want to use the reagent's material itself, use NONE instead of a reaction product class (TAN_MAT in this example).
+	In the product, if you want to use the reagent's material itself, use NONE instead of a reaction product class (TAN_MAT in this example).
 
-   [PRODUCT:100:1:SKIN_TANNED:NONE:GET_MATERIAL_FROM_REAGENT:A:TAN_MAT]
-   [SKILL:TANNER]
-   [AUTOMATIC]
+	[PRODUCT:100:1:SKIN_TANNED:NONE:GET_MATERIAL_FROM_REAGENT:A:TAN_MAT]
+	[SKILL:TANNER]
+	[AUTOMATIC]
 
 [REACTION:RENDER_FAT]
 	[NAME:render fat]

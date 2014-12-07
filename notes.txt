@@ -1,0 +1,5 @@
+Notes:
+In c_vatiation_default.txt There is a difference between modded giants and vanilla that I don't understand.
+In creature_birds Penguin Exotic mount difference?
+Might Have to go back and resize bunnies?
+Serrated Disk difference from vanilla?

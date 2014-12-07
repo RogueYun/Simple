@@ -941,7 +941,7 @@ Echidnas were sponsored by the generous contributions of the Bay 12 community.
 			[CLUTCH_SIZE:1:1]
 	[CASTE:MALE]
 		[MALE]
-		[SET_BP_GROUP:BY_TYPE:LOWERBODY][BP_ADD_TYPE:GELDABLE]
+		undescended, not geldable
 	[SELECT_CASTE:ALL]
 		[SET_TL_GROUP:BY_CATEGORY:ALL:HAIR]
 			[TL_COLOR_MODIFIER:TAN:1]
